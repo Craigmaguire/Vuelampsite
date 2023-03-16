@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width, initial-scale+1.0">
+        <title>VueLamp About</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+    <div class="hero">
+        <nav>
+            <img src="images/menu.png" class="menu-img">
+            <img src="images/logo.png" class="logo">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="Product.html">Product</a></li>
+               <li><a href="About.html">About us</a></li>
+               <li><a href="Contact.html">Contact us</a></li> 
+            </ul>
+            <Button type="button" onclick="toggleBtn()" id="btn"><span></span> 
+            </Button>
+        </nav>
+        
+        <div class="lamp-container">
+        <img src="Images/lamp.png" class="lamp">
+        <img src="Images/light.png" class="light" id="light">
+    </div>
+
+        <div class="text-container">
+            <h1>VueLamp About</h1>
+            <p>Welcome to VueLamp, an Irish-based company specializing in innovative lighting solutions that enhance your living spaces. We are dedicated to delivering quality, sustainability, and functionality in all our products.</p>
+            <p>Our extensive range of lighting products includes sleek and minimalist desk lamps, stylish floor lamps, and elegant pendant lights, all designed to meet the needs of modern living. Whether you want to brighten up your home office, create a warm and inviting atmosphere in your living room, or add a touch of elegance to your dining area, VueLamp has a solution for you.</p>
+            <p>As an Irish company, we are proud to use only the highest quality materials and cutting-edge technology to create products that look great and perform to the highest standards. We are also committed to sustainability and use eco-friendly materials wherever possible, designing our products with energy efficiency in mind.</p>
+            <p>At VueLamp, we believe that lighting is an art form, and we are passionate about helping you create the perfect ambiance in your home. Whether you're looking for a contemporary design or a timeless classic, our range of products has something for everyone.</p>
+            <p>Thank you for choosing VueLamp as your go-to source for innovative lighting solutions. We look forward to helping you transform your living spaces with our unique range of products.</p>       
+            
+            <a href="">Check All Collections</a>
+            
+            <div class="control">
+              <p>04</p>
+              <div class="line"> <span></span></div>
+              <p>05</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2023 VueLamp. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+    
+        function toggleBtn(){
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+    
+        }
+    
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
